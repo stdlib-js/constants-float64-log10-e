@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import LOG10E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log10-e@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-log10-e/tags). For example,
+
+```javascript
 import LOG10E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log10-e@v0.2.0-esm/index.mjs';
 ```
 
@@ -72,7 +77,7 @@ var bool = ( LOG10E === 0.4342944819032518 );
 <body>
 <script type="module">
 
-import LOG10E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log10-e@v0.2.0-esm/index.mjs';
+import LOG10E from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-log10-e@esm/index.mjs';
 
 console.log( LOG10E );
 // => 0.4342944819032518
